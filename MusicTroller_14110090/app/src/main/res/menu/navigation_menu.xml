@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/it_liked_song_list"
+        android:title="Danh sách bài hát yêu thích"
+        android:icon="@drawable/like"/>
+    <item android:id="@+id/it_logout"
+        android:title="Đăng xuất"
+        android:icon="@drawable/logout"/>
+
+</menu>

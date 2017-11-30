@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dl_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sin.musictroller_14110090.MainActivity">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+        <RelativeLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_type_list"
+                android:textSize="15sp"
+                android:text="online"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="53dp"
+                tools:ignore="HardcodedText"
+                android:layout_centerVertical="true"
+                android:layout_alignStart="@+id/switch1"
+                android:layout_marginStart="12dp" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="19dp"
+                android:layout_marginEnd="19dp" />
+        </RelativeLayout>
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:id="@+id/lvPlayList"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ll"></ListView>
+
+    </RelativeLayout>
+</LinearLayout>
+

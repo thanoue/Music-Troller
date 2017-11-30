@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:orientation="vertical"
+        android:background="@drawable/background"
+        android:layout_weight="0.06"
+        android:weightSum="1">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_avt"
+            android:layout_width="260dp"
+            android:layout_height="132dp"
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:src="@drawable/disk" />
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Tên người dùng"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/tv_user_name"
+            android:layout_marginTop="0dp"
+            android:textColor="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.61" />
+    </LinearLayout>
+
+</LinearLayout>

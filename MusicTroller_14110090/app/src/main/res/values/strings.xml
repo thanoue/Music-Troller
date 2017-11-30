@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MusicTroller_14110090</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_demodrawer">demodrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="facebook_app_id">434008103637946</string>
+    <string name="action_settings">Settings</string>
+</resources>
